@@ -1,2 +1,2 @@
-# Python_Learnings
+# Learning Python
 Este é meu repositório pessoal para aprender Python
