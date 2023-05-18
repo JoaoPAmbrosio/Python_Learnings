@@ -17,4 +17,4 @@ Este é meu repositório pessoal para aprender Python
 
 ### Imagem Local
 
-![Logo do Python](https://img2.gratispng.com/20180806/fv/kisspng-python-scalable-vector-graphics-logo-javascript-cl-coderpete-game-development-5b6819307ca155.2506144815335488485105.jpg)
+![Logo do Python](python/python.png)
