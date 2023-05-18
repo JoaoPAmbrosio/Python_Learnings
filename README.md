@@ -17,10 +17,6 @@ Este é meu repositório pessoal para aprender Python
 
 ### Image 01
 
-![Logo do Python](src/assets/to_readme/python.png)
-
-### Image 02
-
 <div align="left">
 <img src="src/assets/to_readme/python.png" width="50px"/>
 </div>
@@ -31,10 +27,4 @@ Este é meu repositório pessoal para aprender Python
 
 <div align="right">
 <img src="src/assets/to_readme/python.png" width="50px"/>
-</div>
-
-### Image 03
-
-<div align="center">
-<img src="https://img2.gratispng.com/20180806/fv/kisspng-python-scalable-vector-graphics-logo-javascript-cl-coderpete-game-development-5b6819307ca155.2506144815335488485105.jpg" width="200px" />
 </div>
