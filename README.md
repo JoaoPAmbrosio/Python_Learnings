@@ -15,12 +15,12 @@ Este é meu repositório pessoal para aprender Python
 3. Receiving user data
 4. Numeric type
 
-### Imagem Local
+### Imagem Local 01
 
-![Logo do Python](Programador\Python\python.png)
+![Logo do Python](C:\Users\joaop\Desktop\Programador\Python\python.png)
 
-### Imagem Local
+### Imagem Local 02
 
 <div align="center">
-<img src="https://img2.gratispng.com/20180806/fv/kisspng-python-scalable-vector-graphics-logo-javascript-cl-coderpete-game-development-5b6819307ca155.2506144815335488485105.jpg" width="700px" />
+<img src="https://img2.gratispng.com/20180806/fv/kisspng-python-scalable-vector-graphics-logo-javascript-cl-coderpete-game-development-5b6819307ca155.2506144815335488485105.jpg" width="400px" />
 </div>
