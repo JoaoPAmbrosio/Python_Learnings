@@ -17,4 +17,4 @@ Este é meu repositório pessoal para aprender Python
 
 ### Imagem Local
 
-![Logo do Python](python/python.png)
+![Logo do Python](C:\Users\joaop\Desktop\Programador\Python\python.png)
