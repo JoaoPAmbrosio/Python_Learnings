@@ -21,7 +21,15 @@ Este é meu repositório pessoal para aprender Python
 
 ### Imagem Local 02
 
+<div align="left">
+<img src="src/assets/to_readme/python.png" width="50px"/>
+</div>
+
 <div align="center">
+<img src="src/assets/to_readme/python.png" width="50px"/>
+</div>
+
+<div align="right">
 <img src="src/assets/to_readme/python.png" width="50px"/>
 </div>
 
