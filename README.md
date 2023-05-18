@@ -15,11 +15,11 @@ Este é meu repositório pessoal para aprender Python
 3. Receiving user data
 4. Numeric type
 
-### Imagem Local 01
+### Image 01
 
 ![Logo do Python](src/assets/to_readme/python.png)
 
-### Imagem Local 02
+### Image 02
 
 <div align="left">
 <img src="src/assets/to_readme/python.png" width="50px"/>
@@ -33,7 +33,7 @@ Este é meu repositório pessoal para aprender Python
 <img src="src/assets/to_readme/python.png" width="50px"/>
 </div>
 
-### Imagem Local 03
+### Image 03
 
 <div align="center">
 <img src="https://img2.gratispng.com/20180806/fv/kisspng-python-scalable-vector-graphics-logo-javascript-cl-coderpete-game-development-5b6819307ca155.2506144815335488485105.jpg" width="200px" />
