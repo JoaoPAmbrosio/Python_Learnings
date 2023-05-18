@@ -21,7 +21,7 @@ Este é meu repositório pessoal para aprender Python
 
 ### Imagem Local 02
 
-<img width="50" > ![Logo do Python](src/assets/to_readme/python.png) >
+<img width="50", ![Logo do Python](src/assets/to_readme/python.png)>
 
 ### Imagem Local 03
 
