@@ -17,10 +17,10 @@ Este é meu repositório pessoal para aprender Python
 
 ### Imagem Local 01
 
-![Logo do Python](Users\joaop\Desktop\Programador\Python\python.png)
+![Logo do Python](src\assets\to_readme\python.png)
 
 ### Imagem Local 02
 
 <div align="center">
-<img src="https://img2.gratispng.com/20180806/fv/kisspng-python-scalable-vector-graphics-logo-javascript-cl-coderpete-game-development-5b6819307ca155.2506144815335488485105.jpg" width="400px" />
+<img src="https://img2.gratispng.com/20180806/fv/kisspng-python-scalable-vector-graphics-logo-javascript-cl-coderpete-game-development-5b6819307ca155.2506144815335488485105.jpg" width="200px" />
 </div>
