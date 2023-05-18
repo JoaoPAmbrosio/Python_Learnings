@@ -17,14 +17,8 @@ Este é meu repositório pessoal para aprender Python
 
 ### Image 01
 
-<div align="left">
+<div align="center">
 <img src="src/assets/to_readme/python.png" width="50px"/>
 </div>
-
-[<div align="center">
-<img src="src/assets/to_readme/python.png" width="50px"/>
-</div>](https://github.com/JoaoPAmbrosio)
-
-<div align="right">
-<img src="src/assets/to_readme/python.png" width="50px"/>
-</div>
+ 
+[![logo python](src/assets/to_readme/python.png)](https://www.github.com/JoaoPAmbrosio)
