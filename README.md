@@ -1,6 +1,16 @@
 # Learning Python
 Este é meu repositório pessoal para aprender Python
 
-## Funcionalidades?
+### Linguagem do projeto
 
-Checkout, Tela de produto, catalogo, home com banner
+* Python
+* HTML
+
+### Funcionalidades a desenvolver:
+
+1. PEP 08
+  1. Spaces
+  2. 'words in'
+2. Dir and Help
+3. Receiving user data
+4. Numeric type
