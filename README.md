@@ -22,7 +22,7 @@ Este é meu repositório pessoal para aprender Python
 </div>
 
 <div align="center">
-<img src="src/assets/to_readme/python.png" width="50px"/>
+[<img src="src/assets/to_readme/python.png" width="50px"/>](https://github.com/JoaoPAmbrosio)
 </div>
 
 <div align="right">
