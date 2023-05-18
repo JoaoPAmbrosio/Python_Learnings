@@ -21,9 +21,9 @@ Este é meu repositório pessoal para aprender Python
 <img src="src/assets/to_readme/python.png" width="50px"/>
 </div>
 
-<div align="center">
-[<img src="src/assets/to_readme/python.png" width="50px"/>](https://github.com/JoaoPAmbrosio)
-</div>
+[<div align="center">
+<img src="src/assets/to_readme/python.png" width="50px"/>
+</div>](https://github.com/JoaoPAmbrosio)
 
 <div align="right">
 <img src="src/assets/to_readme/python.png" width="50px"/>
