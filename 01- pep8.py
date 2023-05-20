@@ -14,7 +14,6 @@ A ideia da PEP8 é que possamos escrever códigos Python de forma Pythônica
 class Calculadora:
     pass
 
-
 class CalculadoraCientifica:
     pass
 
@@ -22,10 +21,8 @@ class CalculadoraCientifica:
 def soma():
     pass
 
-
 def soma_dois():
     pass
-
 
 numero = 4
 
