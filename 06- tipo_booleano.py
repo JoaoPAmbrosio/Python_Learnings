@@ -11,16 +11,13 @@ False -> Falso
 OBS:  Sempre com a inicial maiúscula
 
 Errado:
-
 true, false
 
 Certo:
-
 True, False
 """
 
 ativo = True
-
 print(ativo)
 
 """
@@ -32,7 +29,6 @@ Fazendo a negação, se o valor booleano for verdadeiro o resultado será falso,
 se for falso o resultado será verdadeiro. Ou seja, sempre o contrário"""
 
 print(not ativo)
-
 logado = False
 
 # Ou (or):
