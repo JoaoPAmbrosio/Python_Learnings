@@ -27,7 +27,6 @@ int numero = 42;
 A reatribuição não é permitido ao dado em C e em Java, diferente do Python
 
 """
-
 numero = 42
 print(numero)
 print(type(numero))
@@ -44,4 +43,3 @@ if numero > 10:
     print('novo = %g'%(novo))
 
 print(novo)
-
