@@ -38,6 +38,7 @@ nome = 'joao ambrosio'
 """
 Comece do primeiro elemento, vá atéo ultimo elemento e inverta
 """
+print(nome[::])
 print(nome[::-1])  # Inversão da String Pythônico
 
 print(nome.upper().replace('O', 'A').title())
