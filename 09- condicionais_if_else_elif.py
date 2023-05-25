@@ -1,10 +1,8 @@
 """
 Estruturas condicionais
 if, else, elif
-"""
-"""
-# Estrutura condicional if, else em C
 
+# Estrutura condicional if, else em C
 if(idade < 18){
     printf("Menor de idade");
 }else if(idade == 18){
@@ -14,7 +12,6 @@ if(idade < 18){
 }
 
 # Estrutura condicional if, else em Java
-
 if(idade < 18){
     System.out.println("Menor de idade");
 }else if(idade == 18){
