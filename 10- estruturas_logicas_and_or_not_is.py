@@ -7,7 +7,6 @@ Operadores unários:
     - and, or, is
 
 Regras de funcionamento:
-
 Para o 'and', ambos os valores precisam ser True
 Para o 'or', um ou outro valor precisam ser True
 Para o 'not', o valor do booleano é invertido, ou seja, se for True, vira False, se for False vira True
@@ -26,4 +25,3 @@ if not ativo:
 else:
     print(f'Bem-vindo usuário')
 print(ativo is False)
-
