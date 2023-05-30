@@ -5,18 +5,15 @@ Loop -> Estrutura de repetição.
 For -> Uma dessas estruturas
 
 C ou Java
-
 For(int i = 0; i< limitador; i++){
     //execução do loop
 }
 
 Python
-
 for item in interável;
     ///execução do loop
 
 Utilizamos loops para iterar sequências ou sobre valores iteráveis
-
 Exemplo de iteráveis:
 - String
     nome = 'Joao Ambrosio'
@@ -52,7 +49,6 @@ nome = 'Joao Ambrosio'
 lista = [1, 3, 5, 7, 9]
 numeros = range(1, 10)  # Temos que transformar em uma lista
 
-
 for i in enumerate(nome):
     print(i)
 
@@ -70,7 +66,7 @@ for letra in nome:
     print(letra, end='')
 
 Tabela de Emojis Unicode: https://apps.timwhitlock.info/emoji/tables/unicode
-
+Tabela de Icons: https://lordicon.com/icons
 """
 
 # Original: U+1F60D
