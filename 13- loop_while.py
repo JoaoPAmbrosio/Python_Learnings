@@ -2,7 +2,6 @@
 Loop while
 
 Forma geral
-
 while expressão_booleana:
     //execução do loop
 
@@ -19,15 +18,12 @@ while numero < 10:
 # Em um loop while é importante que cuidemos de um critério de parada para não causar um loop infinito
 
 # C ou Java
-
 while(expressão){
     //execução
 }
 
 """
 #Exemplo 02
-
 resposta = ''
-
 while resposta != 'sim':
     resposta = input('Já acabou jessica? ')
