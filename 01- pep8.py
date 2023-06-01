@@ -25,7 +25,6 @@ def soma_dois():
     pass
 
 numero = 4
-
 numero_impar = 5
 
 (3) - Utilize 4 espaços para identação!
@@ -37,7 +36,6 @@ if 'a' in 'banana':
 - Métodos dentro de uma classe devem ser separados com um única linha em branco;
 
 (5) - Imports
-
 - Imports devem ser sempre feitos em linhas separadas;
 # Import Errado
 import sys, os

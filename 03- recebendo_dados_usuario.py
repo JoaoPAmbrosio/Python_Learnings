@@ -42,16 +42,12 @@ idade = int(input("Qual sua idade? "))
 # Saída de dados
 # Exemplo de print antigo
 # print("A %s tem %s anos" % (nome, idade))
-# print("A %s tem %s anos" % (nome, idade))
-
 # Exemplo de print moderno, a partir das versoes 3.x
 # print("A {0} tem {1} anos".format(nome, idade))
 print(f"A {nome} tem {idade} anos e nasceu em {2023 - idade}.")
-
 """
 # int(idade) => cast
 
 Cast é a conversão de um tipo de dado para outro.
-
 """
-#print(f'A {nome} nasceu em {2023- int(idade)}.')
+# print(f'A {nome} nasceu em {2023- int(idade)}.')
