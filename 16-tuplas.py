@@ -8,7 +8,6 @@ print(type(()))
 2 - As tuplas são imutáveis: Isso significa que ao se criar uma tupla ela nao muda. Toda
 operação em uma tupla gera uma nova tupla
 
-
 # CUIDADO 01: As tuplas são representadas por (), mas veja:
 tupla1 = (1, 2, 3, 4, 5, 6)
 print(tupla1)
@@ -26,20 +25,20 @@ print(type(tupla2))
 tupla3 = (4) # Isso não é uma tupla!
 print(tupla3)
 print(type(tupla3))
-4
-<class 'int'>
+# R: 4
+# R: <class 'int'>
 
 tupla4 = (4,)  # Isso é uma tupla!
 print(tupla4)
 print(type(tupla4))
-(4,)
-<class 'tuple'>
+# R: (4,)
+# R: <class 'tuple'>
 
 tupla5 = 5,
 print(tupla5)
 print(type(tupla5))
-(5,)
-<class 'tuple'>
+# R: (5,)
+# R: <class 'tuple'>
 
 # CONCLUSÃO: Pode-ser concluir que tuplas são definidas pela vírgula e não pelo parênteses
 (4) -> Não é tupla
@@ -101,13 +100,7 @@ print(meses.index(x.title()))
 # Tuplas deixam seu código mais seguro, porque trabalhar com elementos imutaveis trás segurança ao código.
 
 # Copiando uma tupla para outra
-
-
-
-
 """
-
-
 tupla = (1, 2, 3)
 print(tupla)
 
