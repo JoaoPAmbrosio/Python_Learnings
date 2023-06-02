@@ -24,7 +24,6 @@ lista3 = []
 lista4 = list(range(11))
 lista5 = list('Joao Ambrosio')
 
-
 # Podemos facilmente checar se determinado valor esta contido na lista
 num = 7
 if num in lista4:
@@ -300,7 +299,6 @@ print(nova)
 # Veja que ao utilizarmos lista.copy() copia-se os dados da lista para uma nova, mas elas
 # ficaram totalmente independentes, ou seja, modificando uma lista, não afeta a outra. Isso em Python
 # é chamado de Deep Copy (Cópia profunda)
-
 
 # Forma 02 - Shallow Copy
 lista = [1, 2, 3]
