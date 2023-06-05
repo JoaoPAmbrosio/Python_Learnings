@@ -209,8 +209,6 @@ print(novo)
 novo['d']=4
 print(D)
 print(novo)
-
-
 """
 # Forma não usual de criação de dicionários
 outro = {}.fromkeys('a', 'b')
@@ -230,4 +228,3 @@ print(veja)
 veja = {}.fromkeys(range(1, 6), 'valor')
 print(veja)
 # {1: 'valor', 2: 'valor', 3: 'valor', 4: 'valor', 5: 'valor'}
-
