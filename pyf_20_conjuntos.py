@@ -7,7 +7,6 @@ da Matemática.
 - Os conjuntos são chamados de Sets.
 
 Da mesma forma que na matemática:
-
 - Sets (conjuntos) não possuem valores duplicados;
 - Sets (conjuntos) não possuem valores ordenados;
 - Elementos não são acessados via índice, ou seja, conjuntos não são indexados;
@@ -134,7 +133,6 @@ ret = s.discard(3)
 print(s)
 # OBS: Caso o valor não seja encontrado, NÃO será gerado erro
 
-
 # Copiando um conjunto para outro
 s = {1, 2, 3}
 # Forma 01 - Deep copy
@@ -155,7 +153,6 @@ s = {1, 2, 3}
 print(s)
 s.clear()
 print(s)
-
 
 
 # MÉTODOS MATEMÁTICOS DE CONJUNTOS
@@ -187,7 +184,6 @@ so_python = estudantes_python.difference(estudantes_java)
 print(so_python)
 so_java = estudantes_java.difference(estudantes_python)
 print(so_java)
-
 """
 estudantes_python = {'Marcos', 'Patricia', 'Ellen', 'Pedro', 'Julia', 'Guilherme'}
 estudantes_java = {'Fernando', 'Gustavo', 'Julia', 'Ana', 'Patricia'}
