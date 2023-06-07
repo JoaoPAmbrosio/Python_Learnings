@@ -27,8 +27,8 @@ print(Counter('Joao Ambrosio')) # Counter({'o': 4, 'J': 1, 'a': 1, ' ': 1, 'A': 
 from collections import Counter
 
 texto = """A Wikipédia é um projeto de enciclopédia colaborativa, universal e multilíngue estabelecido 
-na internet sob o princípio wiki. Tem como propósito fornecer um conteúdo livre, objetivo e verificável
-​​, que todos possam editar e melhorar. O projeto é definido pelos princípios fundadores e o 
+na internet sob o princípio wiki. Tem como propósito fornecer um conteúdo livre, objetivo e verificável,
+que todos possam editar e melhorar. O projeto é definido pelos princípios fundadores e o 
 conteúdo é disponibilizado sob a licença Creative Commons BY-SA e pode ser reutilizado sob a mesma licença,
  desde que respeitando os termos de uso."""
 
@@ -40,4 +40,3 @@ print(res) # Counter({'e': 5, 'é': 3, 'sob': 3, 'um': 2, 'projeto': 2, 'de': 2,
 
 # Encontrando as 5 palavras com mais ocorrências no texto
 print(res.most_common(5)) # [('e', 5), ('é', 3), ('sob', 3), ('um', 2), ('projeto', 2)]
-
