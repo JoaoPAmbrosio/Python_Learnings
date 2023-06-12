@@ -7,18 +7,14 @@ print(tupla[1])
 
 named Tuple -> São tuplas, diferenciadas, onde, especificamos um nome para a mesma e também parâmetros.
 
-
 # Import
 from collections import namedtuple
 
 # Precisa-se definir o nome e parâmetros.
-
 # Forma 01 - Declaração Named Tuple
 cachorro1 = namedtuple('dog', 'idade raça nome')
-
 # Forma 02 - Declaração Named Tuple
 cachorro = namedtuple('dog', 'idade, raca, nome')
-
 """
 # Import
 from collections import namedtuple
@@ -44,4 +40,3 @@ print(ray.nome) # nome
 x= 'Ray'
 print(ray.index(x))
 print(ray.count(x))
-
