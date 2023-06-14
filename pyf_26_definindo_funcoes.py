@@ -18,14 +18,12 @@ Se utiliza muitas funções:
 
 """
 # Exemplo de utilização de funções:
-
 # cores = ['verde', 'amarelo', 'azul', 'branco']
 
 # Utilizando a função integrada (Built-In) do Python print():
 # (é uma função que já vem na linguagem de programação)
 
 # print(cores)
-
 # print(help(print))
 
 # DRY - Don't Repeat Yourself (princípio)
@@ -50,8 +48,11 @@ utilizado em Python para definir blocos.
 """
 # Definindo a primeira função
 # Exemplo 01
+
+
 def diz_oi():
     print('oi!')
+
 
 """
 OBS: 
@@ -65,18 +66,17 @@ diz_oi()
 # Não pode ser esquecido o parênteses, logo em seguida da função. Ex: diz_oi ou diz_oi () -> Errado!
 
 # Exemplo 02
+
+
 def cantar_parabens():
     print('Parabéns para você\nNesta data querida\nMuitas felicidades\nMuitos anos de vida\nViva o aniversariante!')
+
 
 # for n in range(5):
 #     print(f'Esta é a vez numero {n+1} <><><>>')
 #     cantar_parabens()
 
 # Em Python, pode-se inclusive criar variáveis do tipo de uma função e executar esta função através da variável
-
 canta = cantar_parabens
-
 canta()
-
 # É de certa forma, incomum. Em várias outras linguagens, não exite como em C e outras.
-
