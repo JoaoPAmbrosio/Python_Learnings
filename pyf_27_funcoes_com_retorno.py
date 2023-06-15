@@ -106,8 +106,6 @@ def joga_moeda():
 print(joga_moeda())
 # PROBLEMA! Não consegui importar esse arquivo de biblioteca para importar a função, no terminal por causa
 # do numero que antecede o nome da biblioteca "27-"funcoes_com_retorno. Quando retirado, rodou
-
-
 """
 # Erros comuns na utilização do retorno, que na verdade nem é erro, mas sim codificação necessária
 
