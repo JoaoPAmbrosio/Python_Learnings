@@ -27,7 +27,6 @@ print(quadrado(2))
 # print(quadrado()) # TypeError -> Nao foi enviado o parametro
 
 
-
 def cantar_parabens(aniversariante):
     print(f'Parabéns para você\nNesta data querida\nMuitas felicidades\nMuitos anos de vida\nViva o/a {aniversariante}!')
 
@@ -93,8 +92,6 @@ print(nome_completo(sobrenome, nome))
 print(nome_completo(nome='Angelina', sobrenome='Jolie'))
 print(nome_completo(nome=nome, sobrenome=sobrenome))
 print(nome_completo(sobrenome='Marques', nome='Marcia'))
-
-
 """
 # Erro comum na utilização de return
 
@@ -109,7 +106,3 @@ def soma_impares(numeros):
 
 lista = [1, 2, 3, 4, 5, 6, 7]
 print(soma_impares(lista))
-
-
-
-
