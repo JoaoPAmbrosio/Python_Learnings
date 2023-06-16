@@ -16,7 +16,6 @@ print(quadrado(3))
 print(quadrado()) # TypeError
 
 
-
 def exponecial(numero=4, potencia=2):
     return numero ** potencia
 
@@ -33,24 +32,35 @@ print(exponecial(3, 5))
 print(exponecial())
 
 # OBS: Em funções Python, os parâmetros com valores default (padrão) DEVEM sempre estar ao final da declaração.
+
+
 def teste(potencia, num=2):
     return num ** potencia
 print(teste(6))
 
+
 # Outros exemplos
+
+
 def soma(num1, num2):
     return num1 + num2
+
+
 print(soma(4, 3)) # R: 7
 print(soma(4)) # TypeError
 print(soma()) # TypeError
 
 # Exemplo mais complexto
+
+
 def mostra_informacao(nome='Joao', instrutor=False):
     if nome == 'Joao' and instrutor:
         return 'Bem vindo instrutor Joao!'
     elif nome == 'Joao':
         return 'Eu pensei que você era o instrutor'
     return f'Olá {nome}'
+
+
 print(mostra_informacao())
 print(mostra_informacao(instrutor=True))
 print(mostra_informacao('Ozzy'))
@@ -65,12 +75,19 @@ print(mostra_informacao('Ozzy'))
     - Números, strings, floats, booleanos, listas, tuplas, dicionários, funções, etc;
 
 # Exemplos
+
+
 def soma(num1, num2):
     return num1 + num2
+
+
 def subtracao(num1, num2):
     return num1 - num2
+
+
 def mat(num1, num2, fun=soma):
     return fun(num1, num2)
+
 
 print(mat(2, 3)) # R: 5
 print(soma(2, 3)) # R: 5
@@ -84,32 +101,45 @@ print(subtracao(2, 2)) # R: 0
 
 instrutor = 'Joao' # Variável Global, não faz parte de escopo de nenhuma variável
 
+
 def diz_oi():
     instrutor = 'Python'  # Variável local
     return f'Oi {instrutor}'
+
+
 print(diz_oi())
 
 # OBS: Se tivermos uma variável local com mesmo nome de uma variável global, a local terá preferência.
 
+
 def diz_oi():
     prof = 'Joao' # Variável local
     return f'Olá {prof}'
+
+
 print(diz_oi())
 print(prof) # NameError -> Como é uma variável local, ela não é lida e tomado como inexistente.
 
 total = 0
+
+
 def incrementa():
     total = total +1 # UnboundLocalError -> A variável local está sendo utilizada para processamento sem ter sido inicializada.
     return total
 print(incrementa())
 
+
 # ATENÇÃO com variáveis globais (Se puder evitar, exite!)
 
 total = 0
+
+
 def incrementa():
     global total # Avisando que quer utilizar a variável global
     total = total +1
     return total
+
+    
 print(incrementa()) # R: 1
 print(incrementa()) # R: 2
 print(incrementa()) # R: 3
@@ -117,6 +147,7 @@ print(incrementa()) # R: 3
 
 """
 # Pode se ter funções que são declaradas dentro de funções, e também tem uma forma especial de escopo de variável
+
 
 def fora():
     contador = 0
@@ -127,8 +158,9 @@ def fora():
         return contador
     return dentro()
 
+
 print(fora()) # R: 0
 print(fora()) # R: 0
 print(fora()) # R: 0
 
-print(dentro()) # R: NameError fora do escopo
+# print(dentro()) # R: NameError fora do escopo
