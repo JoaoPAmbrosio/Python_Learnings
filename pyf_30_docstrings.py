@@ -3,10 +3,13 @@ Documentando funções Docstrings,
 
 """
 # Exemplos
+
+
 def diz_oi():
     """Uma função simples que retorna a string 'Oi!'"""
     return 'Oi! '
 print(diz_oi())
+
 
 def exponencial(numero, potencia=2):
     """
