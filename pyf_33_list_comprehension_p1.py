@@ -4,7 +4,6 @@ List comprehension
 - Utilizando o List Comprehension pode-se gerar novas listas com dados processados a partir de outro iterável.
 
 # Sentaxe da List Comprenhension
-
 [ dado for dado in iterável ]
 [ valor for valor in iterável ]
 
@@ -22,12 +21,13 @@ Para entender melhor o que está acontecendo deve-se dividir a expressao em das 
 res = [numero / 2 for numero in numeros]
 print(res)
 
+
 def funcao(valor):
     return valor * valor
 
+
 res = [funcao(numero) for numero in numeros]
 print(res)
-
 
 # List comprenhension versos Loop
 
@@ -41,9 +41,7 @@ print(numeros_dobrados)
 # List comprenhensions
 numeros_dobrados = [numero * 2 for numero in numeros]
 print(numeros_dobrados)
-
 """
-
 # Outros exemplos
 # Exemplo 01
 nome = 'Joao Ambrosio'
@@ -58,5 +56,3 @@ print([bool(valor) for valor in [0, [], '', True, 1, 3.14]]) # R: [False, False,
 # Exemplo 04
 # Transformandom, em vez de trabalhar com inteiro, trabalhando com strings
 print([str(numero) for numero in [1, 2, 3, 4, 5]]) # ['1', '2', '3', '4', '5']
-
-
