@@ -9,7 +9,6 @@ Limitações de C/Java -> Tamanho e tipo de dado
 Em Python se tem as listas
 numeros = [1, 'b', 3.234, True, 5]
 
-
 listas = [[1, 2, 3], [4, 5, 6], [7, 8, 9]] # Matriz 3 x 3
 
 print(listas)
@@ -24,9 +23,7 @@ for lista in listas:
     for num in lista:
         print(num)
 
-
 # List Comprenhensions
-
 [[print(valor) for valor in lista] for lista in listas]
 """
 # Outros exemplos
@@ -40,10 +37,4 @@ velha = [['X' if numero % 2 == 0 else '0' for numero in range(1, 4)] for valor i
 print(velha)
 
 # Gerando valor iniciais
-
 print([['*' for i in range(1, 4)] for j in range(1, 4)])
-
-
-
-
-
