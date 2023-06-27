@@ -7,8 +7,11 @@ Conhecidas por Expressões Lambdas, ou simplesmente lambdas, são funções sem 
 funções anonimas.
 
 # Função em Python
+
+
 def funcao(x):
     return 3 * x + 1
+
 
 print(funcao(4))
 
@@ -22,7 +25,6 @@ print(calc(4))
 print(calc(7))
 
 # Podemos ter expressões lambdas com multiplas entradas
-
 nome_completo = lambda nome, sobrenome: nome.strip().title() + ' '+ sobrenome.strip().title()
 
 print(nome_completo(' angelina', 'JOLIE')) # R: Angelina Jolie
@@ -46,18 +48,17 @@ print(tres(3, 6, 9)) # R: 4.909090909090908
 
 # Definindo a função
 
+
 def geradora_funcao_quadratica(a, b, c):
     # Retorna a função f(x) = a * x ** 2 + b * x + c
     return lambda x: a * x ** 2 + b * x + c
 
+    
 teste = geradora_funcao_quadratica(2, 3, -5)
 print(teste(0)) # R: -5
 print(teste(1)) # R: 0
 print(teste(2)) # R: 9
 print(geradora_funcao_quadratica(2, 3, -5)(2)) # R: 9
-
-
-
 """
 # Exemplo PEGANDO SOBRENOME E COLOCANDO EM ORDEM ALFABÉTICA
 autores = ['Isaac Asimov', 'Ray Bradbury', 'Robert He inlein', 'Arthur C. Clarke', 'Frank Herbert', 'Orson Scott Card',
@@ -71,4 +72,3 @@ print(autores)
 autores.sort(key=lambda sobrenome: sobrenome.split(' ')[-1].lower()) # Esse lower, teria funcao caso tivesse nomes em
 # formatacao diferentes. Como todos ja passaram pelo title com list comprehension nao e necessario.
 print(autores)
-
