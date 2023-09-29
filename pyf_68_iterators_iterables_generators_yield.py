@@ -135,3 +135,5 @@ list_inicio = time.time()
 print(sum([num for num in range(100000000)])) # R: 4999999950000000
 list_tempo = time.time() - list_inicio
 print(f'List comprehension: {list_tempo}') # R: List comprehension: 20.524861097335815
+
+
